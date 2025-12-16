@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LKPainter", "LKPainter\LKPainter.csproj", "{294FA5AE-5015-4563-A273-1C57F665CD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.API", "UserService.API\UserService.API.csproj", "{09753CED-FFF2-414D-8F06-842A3ED640FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{294FA5AE-5015-4563-A273-1C57F665CD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294FA5AE-5015-4563-A273-1C57F665CD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294FA5AE-5015-4563-A273-1C57F665CD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294FA5AE-5015-4563-A273-1C57F665CD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09753CED-FFF2-414D-8F06-842A3ED640FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09753CED-FFF2-414D-8F06-842A3ED640FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09753CED-FFF2-414D-8F06-842A3ED640FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09753CED-FFF2-414D-8F06-842A3ED640FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {243C0B76-104F-475D-B8C1-E6FAD98C8686}
+	EndGlobalSection
+EndGlobal

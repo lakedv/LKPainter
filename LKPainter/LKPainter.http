@@ -1,0 +1,6 @@
+@LKPainter_HostAddress = http://localhost:5150
+
+GET {{LKPainter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
