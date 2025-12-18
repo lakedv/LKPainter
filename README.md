@@ -42,10 +42,10 @@ It is aligned with the agreed project phases and will be updated as development 
 **Status:** In Progress
 
 ### Services
-- UserService
-- ProjectService
-- ColorService
-- CatalogService
+- UserService - Complete
+- ProjectService - Pending
+- ColorService - Pending
+- CatalogService - Current
 
 ### Goals
 - CRUD operations for core domain entities
