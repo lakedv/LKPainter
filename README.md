@@ -43,7 +43,7 @@ It is aligned with the agreed project phases and will be updated as development 
 
 ### Services
 - UserService - Complete
-- ProjectService - Pending
+- ProjectService - Current
 - ColorService - Pending
 - CatalogService - Complete
 
