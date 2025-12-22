@@ -39,7 +39,14 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<CatalogDbContext>();
+
+    var baseModelId = context.Models
+        .Where(m => m.IsBaseConcept)
+        .Select(m => m.Id)
+        .First();
+
     await CatalogSeeder.SeedAsync(context);
+    await LayerGroupSeeder.SeedAsync(context, baseModelId);
 }
 
 // Configure the HTTP request pipeline.
